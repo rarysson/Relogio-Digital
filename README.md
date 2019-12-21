@@ -14,3 +14,5 @@ O sistema consiste em um módulo principal e vários submódulos. Essa estrutura
     * módulo para contar as horas.
   * bcd_7seg
     * módulo para converter os números do relógio para o código da peça de visualização do FPGA.
+
+> Obs.: Alguns valores nos módulos estão só para permitir a visualização no Quartus, sendo necessário realizar a troca de valores caso queira implementar o código na placa FPGA. Os valores verdadeiros estão comentados ao lado dos lugares que é necessário realizar a troca. 
